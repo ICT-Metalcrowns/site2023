@@ -1,0 +1,36 @@
+baseURL: https://www.metalcrowns.com/
+languageCode: en-us
+title: Metal Crowns Limited
+theme: PaperMod
+params:
+  homeinfoParams:
+    Title: "Who We Are"
+    content: "As a regional leader in the industry since 1978, METAL CROWNS LIMITED has a wealth of knowledge and experience in manufacturing of quality Metal Crown Caps and Plastic Closures products. We’re committed to providing a variety of beverage companies with quality products and innovations. The industry is constantly changing, so we’re constantly working to keep up with the latest advancements."
+  # OpenGraph image displayed when posting site link on socials
+  # For example, if you post the link to the site in Discord, this image will be displayed
+  # This image is used with <meta property="og:image" ...> and <meta property="twitter:image" ...>
+  images: ["logo.JPG"]
+
+  # ...
+
+  # Logo and name shown on top left of site
+  label:
+    text: ""
+    icon: img/logo.JPG
+    iconHeight: 80
+menu:
+ main:
+  - identifier: about
+    name: "About Us"
+    url: /about/
+    weight: 1
+
+  - identifier: product
+    name: "Our Products"
+    url: /product/
+    weight: 10
+
+  - identifier: Contact
+    name: "Contact Us"
+    url: /contact/
+    weight: 30
